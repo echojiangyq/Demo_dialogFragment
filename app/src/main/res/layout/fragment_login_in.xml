@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".LoginInFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@android:color/background_light"
+        />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="@string/input_username"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_username"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="@string/input_password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"/>
+
+</RelativeLayout>

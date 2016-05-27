@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="fake_data">
+    <item> Save Instance Status</item>    
+    <item> Use Fragment Retain Large Data</item>    
+    <item> Handle Configuration</item>    
+    <item> Use RetainFragment Handle Loading Task</item>    
+    </string-array>
+</resources>
